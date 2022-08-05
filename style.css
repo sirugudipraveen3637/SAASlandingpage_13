@@ -1,0 +1,293 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  /* background-color: #F8F8FA; */
+  background-color: white;
+}
+header
+{
+  height: 60px;
+  background-color: #7030cc;
+
+}
+header>nav
+{
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+header>nav>a
+{
+
+  font-size: 14px;
+  font-weight: 500;
+    color: white;
+  padding: 0px 10px;
+}
+
+header>nav>a:nth-child(1)
+{
+
+ color: #1bbcef;
+ text-decoration: underline;
+ /* font-weight: 600;
+} */
+}
+.nav-item-active
+{
+  
+  background-color: #1bbcef;
+  color: white;
+  padding: 3px 5px;
+  border: 1px solid  #1bbcef;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500px;
+  margin-right: 20px;
+}
+header>div:nth-child(2)>img
+{ 
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 83px;
+  height: 30px;
+  } 
+
+
+
+
+/*END OF HEADER*/
+
+.hostingcards
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  height: fit-content;
+ 
+  background-color: #7030cc;
+  padding: 0px;
+}
+
+
+.leftsection
+{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+ margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  /* margin-right: 50px; */
+}
+.leftsection>h2
+{
+  color: white;
+  font-size: 45px;
+  width:fit-content;
+ 
+}
+.leftsection>p
+{
+  color: white;
+  font-size: 0.9em;
+  margin-top: 20px;
+  width:fit-content;
+ 
+}
+.leftsection>button
+{
+  color:white;
+  background-color: #1bbcef;
+  border: 1px solid #1bbcef;
+  border-radius: 5px;
+ 
+  margin-top: 30px;
+  width:fit-content;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.rightsection
+{
+  flex:1;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  text-align: right;
+
+
+}
+.rightsection>img
+{
+  width: 466px;
+  margin-left: 0px;
+
+}
+
+.devcards
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  height: fit-content;
+
+}
+
+.feature
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.feature> .imgar
+{
+  flex: 10%;
+}
+.feature> .featureoptions
+{
+  flex: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+
+.featureoptions>p
+{
+font-size: 12px;
+width: 75%;
+}
+
+.devcards .leftsection>h2
+{
+  color: black;
+  font-size: 45px;
+  width:fit-content;
+}
+.connect
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.connect>h1
+{
+  text-align: center;
+}
+
+
+.bottomsec
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 80px 50px;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottomftr
+{
+  width:16%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px black;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bottomsec h4
+{
+  color: black;
+  margin-top: 10px;
+  width:90%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.bottomsec p
+{
+  color: #636C79;
+  margin-top: 10px;
+  width:60%;
+  font-size: 12px;
+  text-align: center;
+}
+
+.bottomsec img
+{
+  width:70px;
+
+}
+
+.btmimgs1
+{
+  background-color:#faeaeb;
+  border: 1px solid #faeaeb;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btmimgs2
+{
+  background-color:#fbf0ee;
+  border: 1px solid #fbf0ee;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btmimgs3
+{
+  background-color:#e9f4f6;
+  border: 1px solid #e9f4f6;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btmimgs4
+{
+  background-color:#f2e7f5;
+  border: 1px solid #f2e7f5;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
