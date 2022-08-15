@@ -11,7 +11,9 @@
   
   - Flex Box
   - Selectors
-
+  - Responsive Web
+  - Media Queries
+  - Flex-Basis
   
 ### Development Efforts:- 2 hours
   
