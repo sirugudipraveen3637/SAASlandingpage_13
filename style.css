@@ -306,6 +306,30 @@ width: 75%;
   margin-top: 10px;
 }
 
+.selecteddiv
+{
+  background-color: #7030cc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border:1px solid #7030cc;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.selecteddiv p
+{
+  color: white;
+}
+
+.selecteddiv h4
+{
+  color: white;
+}
+
 
 @media (max-width: 639px) {
 
